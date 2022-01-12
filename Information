@@ -1,0 +1,5 @@
+In the project I have added the patch package because i have done some changes in node module file after doing npm install if 
+change doesn't reflect then inside Containers folder one file is there same slot-machine.js then replace in the node-module.
+
+
+// The  above step is optional.

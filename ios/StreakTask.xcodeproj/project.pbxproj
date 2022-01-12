@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* StreakTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StreakTaskTests.m */; };
+		06850F4D468A4900B51EBAA9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D02C381913454DB184D18E04 /* Ionicons.ttf */; };
+		099170CCF495437D839A7043 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E33C5B6A55D4CB7B1685845 /* Barlow-BlackItalic.ttf */; };
+		09BECA447FC1437DB324CF94 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7217A08C0F6A497AAEF333D6 /* Barlow-Light.ttf */; };
+		0BC8AACA27F948888E46F802 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CB87844244911801344FB /* EvilIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1618298C321C48CAB0F52021 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27C31070738449A48E356345 /* AntDesign.ttf */; };
+		1BAAE04637F342B096D5C9B0 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6FDAC88459C41E1B8E952EA /* Barlow-Medium.ttf */; };
+		2BDE86BC9959432F83383C48 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E613C01DE6C24EB293D8A5E4 /* IBMPlexSans-Bold.ttf */; };
+		3A67E3F53AA345B1BB0C358B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3C0F9136BEB4B49B47AC968 /* SimpleLineIcons.ttf */; };
+		4AC7BC3CD93948E2A3D3B789 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB15B019611B4B7A9769D65C /* Barlow-BoldItalic.ttf */; };
+		4FE7F00BE319449B94F49237 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB857330002B4079B4069818 /* Barlow-ExtraBold.ttf */; };
+		51EF9EAC12CF4307B4882484 /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8545512BAF4920A2BE63D5 /* IBMPlexSans-Light.ttf */; };
+		563B5D89369948B8802C7B14 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBD3314690FD42B8B49BD143 /* IBMPlexMono-SemiBold.ttf */; };
+		564981F344914992AF063944 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6766C9FBCACA4071BD897C05 /* IBMPlexMono-Thin.ttf */; };
+		5659CB135AD1485D978A8E4B /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D428DC422240F3B3BE5D64 /* FontAwesome5_Brands.ttf */; };
+		57A9990DC97F33FB3EEE5476 /* libPods-StreakTask-StreakTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D22239B8A8789CA9F639B6A6 /* libPods-StreakTask-StreakTaskTests.a */; };
+		5F5D179A44CB43AB9D89EFE5 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40181B1907A846FE9C0E7121 /* IBMPlexMono-ExtraLight.ttf */; };
+		65DD711A6EAF4C31B23452C5 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB58D3B23E52453487D34298 /* IBMPlexMono-Regular.ttf */; };
+		6737BAFCCB564FD186525E63 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C502082D91DE4197805A8BE8 /* FontAwesome5_Solid.ttf */; };
+		675B88F550EF48DD99DCE5C6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A83C07EFF4C45B077C509 /* FontAwesome.ttf */; };
+		6B5D14982E3C4BA39C828263 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB76FA65075C4429B42E4D8F /* Foundation.ttf */; };
+		6F777333E9404B5E8FE4D889 /* IBMPlexSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B09D409775F463A9BEDC2A6 /* IBMPlexSans-BoldItalic.ttf */; };
+		71CDB6B4BA314AE886BF4CCE /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44E1E194438B4F618160144C /* IBMPlexMono-Bold.ttf */; };
+		7461D089A0C8411DB3D3C3B9 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1428BE6F4F934A0D984DCE3D /* IBMPlexSans-Regular.ttf */; };
+		7F54CBCF134440079F7AD39D /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDBC05237EC5414CB4282C8E /* IBMPlexMono-BoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A93C4CDD776468087D3A7BE /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E76A3E353AD465D88ADE2C8 /* Barlow-Thin.ttf */; };
+		8EBA22DD054B448D9C78F1ED /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 939BE5EFD8DE4276B76DF7C9 /* Zocial.ttf */; };
+		92E4CAFA3E184CAC8E2E4F61 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 343F64E20988458EA4E4C7BC /* Feather.ttf */; };
+		986B38DB87234A0C9603532B /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 614ACE8A1C814E608B74C159 /* IBMPlexMono-Medium.ttf */; };
+		994895E995C84CBDAFFAD7AB /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59AD444C69544B1B8E512A10 /* Barlow-Black.ttf */; };
+		9CA3EFF1C5C0414E94430A9C /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4DB86213EED4514BB6AD3F3 /* IBMPlexSans-SemiBold.ttf */; };
+		A6AC44CAF91F4B7793AEE79F /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8A7B684951848699071BE85 /* Barlow-LightItalic.ttf */; };
+		A821D41278EA46B9BAF9CCBA /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A16AF0523943D694F8CB3A /* FontAwesome5_Regular.ttf */; };
+		A8FCC41C871E46A4AB2582F9 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57530F25B0D2440D84D4BC55 /* Fontisto.ttf */; };
+		B7A82DF9783F4A9792856082 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B821D8FB7241C4A6741396 /* Barlow-Bold.ttf */; };
+		BF875B5A93DD4AFB96C8145D /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 013B255FEA0346CD957E5A5E /* Barlow-Regular.ttf */; };
+		C1C30517EABE44A699BFB980 /* IBMPlexSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD06231446874F35B5C18C8E /* IBMPlexSans-Italic.ttf */; };
+		C359A3483FB5470DA091C54E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1321410D36B464691C2F588 /* Octicons.ttf */; };
+		C8945A3D367D4D0E96500BA1 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC1A155D9F124D8B90A91518 /* MaterialIcons.ttf */; };
+		CF3B804CFE774FA38A1D97FF /* IBMPlexSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2DC9DD2379241BDB9B68659 /* IBMPlexSans-ThinItalic.ttf */; };
+		DD349F9A5B12449281351258 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C66AF7105CEA449A96FFF944 /* Entypo.ttf */; };
+		E0C6A83B27D8467796ED1A02 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44FC24D2815C42AEBA9B798F /* Barlow-SemiBold.ttf */; };
+		E265A467542C4EC6B86D8347 /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 924A6990677B40519020DA9A /* Barlow-ThinItalic.ttf */; };
+		E2D0DDD12FC9CC2CD19C5637 /* libPods-StreakTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8265C443903D6E0C72ABCC /* libPods-StreakTask.a */; };
+		EA17F38F09C64948BAE4B70F /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B5E468F14B647718CB4BCA1 /* IBMPlexSans-ExtraLight.ttf */; };
+		F54D8F72CD9C40C2AC9F2082 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C1350F78904647ACA33FA2 /* IBMPlexSans-Medium.ttf */; };
+		F629DC52144B41CC98BCFB63 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C93DD101DA2E47FCA8B2DA8E /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		F931AE1AD69F47FB9D481AC5 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDC748ED025F4079B1A877DB /* IBMPlexMono-Italic.ttf */; };
+		FD3E4858E55F4DACAB5463A9 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6CA33738DA448CF989D7C7D /* MaterialCommunityIcons.ttf */; };
+		FFB6D52A17394FA5B01EF934 /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6481D09A954F398830EF74 /* IBMPlexMono-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = StreakTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* StreakTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreakTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* StreakTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreakTaskTests.m; sourceTree = "<group>"; };
+		013B255FEA0346CD957E5A5E /* Barlow-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Regular.ttf"; path = "../assets/fonts/Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* StreakTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreakTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StreakTask/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = StreakTask/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StreakTask/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StreakTask/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StreakTask/main.m; sourceTree = "<group>"; };
+		1428BE6F4F934A0D984DCE3D /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Regular.ttf"; path = "../assets/fonts/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		1A6481D09A954F398830EF74 /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Light.ttf"; path = "../assets/fonts/IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
+		26A16AF0523943D694F8CB3A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		27C31070738449A48E356345 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		2A5A83C07EFF4C45B077C509 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		2FA842C45028A448B175B194 /* Pods-StreakTask-StreakTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreakTask-StreakTaskTests.release.xcconfig"; path = "Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		343F64E20988458EA4E4C7BC /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		40181B1907A846FE9C0E7121 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLight.ttf"; path = "../assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		44E1E194438B4F618160144C /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Bold.ttf"; path = "../assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
+		44FC24D2815C42AEBA9B798F /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-SemiBold.ttf"; path = "../assets/fonts/Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		4B5E468F14B647718CB4BCA1 /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-ExtraLight.ttf"; path = "../assets/fonts/IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4B8545512BAF4920A2BE63D5 /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Light.ttf"; path = "../assets/fonts/IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		4C4CB87844244911801344FB /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		57530F25B0D2440D84D4BC55 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		59AD444C69544B1B8E512A10 /* Barlow-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Black.ttf"; path = "../assets/fonts/Barlow-Black.ttf"; sourceTree = "<group>"; };
+		5C387338DB18E81048ECD2E5 /* Pods-StreakTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreakTask.debug.xcconfig"; path = "Target Support Files/Pods-StreakTask/Pods-StreakTask.debug.xcconfig"; sourceTree = "<group>"; };
+		5E76A3E353AD465D88ADE2C8 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Thin.ttf"; path = "../assets/fonts/Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		614ACE8A1C814E608B74C159 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Medium.ttf"; path = "../assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		6766C9FBCACA4071BD897C05 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Thin.ttf"; path = "../assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; };
+		6B09D409775F463A9BEDC2A6 /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-BoldItalic.ttf"; path = "../assets/fonts/IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6E33C5B6A55D4CB7B1685845 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-BlackItalic.ttf"; path = "../assets/fonts/Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7217A08C0F6A497AAEF333D6 /* Barlow-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Light.ttf"; path = "../assets/fonts/Barlow-Light.ttf"; sourceTree = "<group>"; };
+		77B821D8FB7241C4A6741396 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Bold.ttf"; path = "../assets/fonts/Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StreakTask/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924A6990677B40519020DA9A /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-ThinItalic.ttf"; path = "../assets/fonts/Barlow-ThinItalic.ttf"; sourceTree = "<group>"; };
+		939BE5EFD8DE4276B76DF7C9 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		9D8265C443903D6E0C72ABCC /* libPods-StreakTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StreakTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1321410D36B464691C2F588 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A2DC9DD2379241BDB9B68659 /* IBMPlexSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-ThinItalic.ttf"; path = "../assets/fonts/IBMPlexSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A6FDAC88459C41E1B8E952EA /* Barlow-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Medium.ttf"; path = "../assets/fonts/Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		AB15B019611B4B7A9769D65C /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-BoldItalic.ttf"; path = "../assets/fonts/Barlow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C3C0F9136BEB4B49B47AC968 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		C502082D91DE4197805A8BE8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		C66AF7105CEA449A96FFF944 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		C7C1350F78904647ACA33FA2 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		C8A7B684951848699071BE85 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-LightItalic.ttf"; path = "../assets/fonts/Barlow-LightItalic.ttf"; sourceTree = "<group>"; };
+		C93DD101DA2E47FCA8B2DA8E /* IBMPlexSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-SemiBoldItalic.ttf"; path = "../assets/fonts/IBMPlexSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CB58D3B23E52453487D34298 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Regular.ttf"; path = "../assets/fonts/IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		CB857330002B4079B4069818 /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-ExtraBold.ttf"; path = "../assets/fonts/Barlow-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CDC748ED025F4079B1A877DB /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Italic.ttf"; path = "../assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
+		D02C381913454DB184D18E04 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		D22239B8A8789CA9F639B6A6 /* libPods-StreakTask-StreakTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StreakTask-StreakTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CA33738DA448CF989D7C7D /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D85B1CC394B0CD684C3ADF2C /* Pods-StreakTask-StreakTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreakTask-StreakTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1A155D9F124D8B90A91518 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		DCEB3121EA0BB78EF1BBD04F /* Pods-StreakTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreakTask.release.xcconfig"; path = "Target Support Files/Pods-StreakTask/Pods-StreakTask.release.xcconfig"; sourceTree = "<group>"; };
+		E0D428DC422240F3B3BE5D64 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		E613C01DE6C24EB293D8A5E4 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Bold.ttf"; path = "../assets/fonts/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		EB76FA65075C4429B42E4D8F /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		EBD3314690FD42B8B49BD143 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBold.ttf"; path = "../assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F4DB86213EED4514BB6AD3F3 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-SemiBold.ttf"; path = "../assets/fonts/IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		FD06231446874F35B5C18C8E /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Italic.ttf"; path = "../assets/fonts/IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
+		FDBC05237EC5414CB4282C8E /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-BoldItalic.ttf"; path = "../assets/fonts/IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A9990DC97F33FB3EEE5476 /* libPods-StreakTask-StreakTaskTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0DDD12FC9CC2CD19C5637 /* libPods-StreakTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* StreakTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* StreakTaskTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = StreakTaskTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* StreakTask */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = StreakTask;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				9D8265C443903D6E0C72ABCC /* libPods-StreakTask.a */,
+				D22239B8A8789CA9F639B6A6 /* libPods-StreakTask-StreakTaskTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DAFB5D85177E7821AC9A2F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C387338DB18E81048ECD2E5 /* Pods-StreakTask.debug.xcconfig */,
+				DCEB3121EA0BB78EF1BBD04F /* Pods-StreakTask.release.xcconfig */,
+				D85B1CC394B0CD684C3ADF2C /* Pods-StreakTask-StreakTaskTests.debug.xcconfig */,
+				2FA842C45028A448B175B194 /* Pods-StreakTask-StreakTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* StreakTask */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* StreakTaskTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				5DAFB5D85177E7821AC9A2F0 /* Pods */,
+				F13F1DCC6929486AB9931A54 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* StreakTask.app */,
+				00E356EE1AD99517003FC87E /* StreakTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13F1DCC6929486AB9931A54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59AD444C69544B1B8E512A10 /* Barlow-Black.ttf */,
+				6E33C5B6A55D4CB7B1685845 /* Barlow-BlackItalic.ttf */,
+				77B821D8FB7241C4A6741396 /* Barlow-Bold.ttf */,
+				AB15B019611B4B7A9769D65C /* Barlow-BoldItalic.ttf */,
+				CB857330002B4079B4069818 /* Barlow-ExtraBold.ttf */,
+				7217A08C0F6A497AAEF333D6 /* Barlow-Light.ttf */,
+				C8A7B684951848699071BE85 /* Barlow-LightItalic.ttf */,
+				A6FDAC88459C41E1B8E952EA /* Barlow-Medium.ttf */,
+				013B255FEA0346CD957E5A5E /* Barlow-Regular.ttf */,
+				44FC24D2815C42AEBA9B798F /* Barlow-SemiBold.ttf */,
+				5E76A3E353AD465D88ADE2C8 /* Barlow-Thin.ttf */,
+				924A6990677B40519020DA9A /* Barlow-ThinItalic.ttf */,
+				44E1E194438B4F618160144C /* IBMPlexMono-Bold.ttf */,
+				FDBC05237EC5414CB4282C8E /* IBMPlexMono-BoldItalic.ttf */,
+				40181B1907A846FE9C0E7121 /* IBMPlexMono-ExtraLight.ttf */,
+				CDC748ED025F4079B1A877DB /* IBMPlexMono-Italic.ttf */,
+				1A6481D09A954F398830EF74 /* IBMPlexMono-Light.ttf */,
+				614ACE8A1C814E608B74C159 /* IBMPlexMono-Medium.ttf */,
+				CB58D3B23E52453487D34298 /* IBMPlexMono-Regular.ttf */,
+				EBD3314690FD42B8B49BD143 /* IBMPlexMono-SemiBold.ttf */,
+				6766C9FBCACA4071BD897C05 /* IBMPlexMono-Thin.ttf */,
+				E613C01DE6C24EB293D8A5E4 /* IBMPlexSans-Bold.ttf */,
+				6B09D409775F463A9BEDC2A6 /* IBMPlexSans-BoldItalic.ttf */,
+				4B5E468F14B647718CB4BCA1 /* IBMPlexSans-ExtraLight.ttf */,
+				FD06231446874F35B5C18C8E /* IBMPlexSans-Italic.ttf */,
+				4B8545512BAF4920A2BE63D5 /* IBMPlexSans-Light.ttf */,
+				C7C1350F78904647ACA33FA2 /* IBMPlexSans-Medium.ttf */,
+				1428BE6F4F934A0D984DCE3D /* IBMPlexSans-Regular.ttf */,
+				F4DB86213EED4514BB6AD3F3 /* IBMPlexSans-SemiBold.ttf */,
+				C93DD101DA2E47FCA8B2DA8E /* IBMPlexSans-SemiBoldItalic.ttf */,
+				A2DC9DD2379241BDB9B68659 /* IBMPlexSans-ThinItalic.ttf */,
+				27C31070738449A48E356345 /* AntDesign.ttf */,
+				C66AF7105CEA449A96FFF944 /* Entypo.ttf */,
+				4C4CB87844244911801344FB /* EvilIcons.ttf */,
+				343F64E20988458EA4E4C7BC /* Feather.ttf */,
+				2A5A83C07EFF4C45B077C509 /* FontAwesome.ttf */,
+				E0D428DC422240F3B3BE5D64 /* FontAwesome5_Brands.ttf */,
+				26A16AF0523943D694F8CB3A /* FontAwesome5_Regular.ttf */,
+				C502082D91DE4197805A8BE8 /* FontAwesome5_Solid.ttf */,
+				57530F25B0D2440D84D4BC55 /* Fontisto.ttf */,
+				EB76FA65075C4429B42E4D8F /* Foundation.ttf */,
+				D02C381913454DB184D18E04 /* Ionicons.ttf */,
+				D6CA33738DA448CF989D7C7D /* MaterialCommunityIcons.ttf */,
+				DC1A155D9F124D8B90A91518 /* MaterialIcons.ttf */,
+				A1321410D36B464691C2F588 /* Octicons.ttf */,
+				C3C0F9136BEB4B49B47AC968 /* SimpleLineIcons.ttf */,
+				939BE5EFD8DE4276B76DF7C9 /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* StreakTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StreakTaskTests" */;
+			buildPhases = (
+				61DA455F8ED69AC83D5A8178 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				FD1F07725BE0E96653D4DEAE /* [CP] Embed Pods Frameworks */,
+				32CA4E567ECFCE40400CB3D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = StreakTaskTests;
+			productName = StreakTaskTests;
+			productReference = 00E356EE1AD99517003FC87E /* StreakTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* StreakTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StreakTask" */;
+			buildPhases = (
+				46835F40BA7D3E887D40A7CD /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2C2D2846983A4BB04F60ABC5 /* [CP] Embed Pods Frameworks */,
+				ABBF19E820D81C8C14BD2A3D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreakTask;
+			productName = StreakTask;
+			productReference = 13B07F961A680F5B00A75B9A /* StreakTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StreakTask" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* StreakTask */,
+				00E356ED1AD99517003FC87E /* StreakTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				994895E995C84CBDAFFAD7AB /* Barlow-Black.ttf in Resources */,
+				099170CCF495437D839A7043 /* Barlow-BlackItalic.ttf in Resources */,
+				B7A82DF9783F4A9792856082 /* Barlow-Bold.ttf in Resources */,
+				4AC7BC3CD93948E2A3D3B789 /* Barlow-BoldItalic.ttf in Resources */,
+				4FE7F00BE319449B94F49237 /* Barlow-ExtraBold.ttf in Resources */,
+				09BECA447FC1437DB324CF94 /* Barlow-Light.ttf in Resources */,
+				A6AC44CAF91F4B7793AEE79F /* Barlow-LightItalic.ttf in Resources */,
+				1BAAE04637F342B096D5C9B0 /* Barlow-Medium.ttf in Resources */,
+				BF875B5A93DD4AFB96C8145D /* Barlow-Regular.ttf in Resources */,
+				E0C6A83B27D8467796ED1A02 /* Barlow-SemiBold.ttf in Resources */,
+				8A93C4CDD776468087D3A7BE /* Barlow-Thin.ttf in Resources */,
+				E265A467542C4EC6B86D8347 /* Barlow-ThinItalic.ttf in Resources */,
+				71CDB6B4BA314AE886BF4CCE /* IBMPlexMono-Bold.ttf in Resources */,
+				7F54CBCF134440079F7AD39D /* IBMPlexMono-BoldItalic.ttf in Resources */,
+				5F5D179A44CB43AB9D89EFE5 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				F931AE1AD69F47FB9D481AC5 /* IBMPlexMono-Italic.ttf in Resources */,
+				FFB6D52A17394FA5B01EF934 /* IBMPlexMono-Light.ttf in Resources */,
+				986B38DB87234A0C9603532B /* IBMPlexMono-Medium.ttf in Resources */,
+				65DD711A6EAF4C31B23452C5 /* IBMPlexMono-Regular.ttf in Resources */,
+				563B5D89369948B8802C7B14 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				564981F344914992AF063944 /* IBMPlexMono-Thin.ttf in Resources */,
+				2BDE86BC9959432F83383C48 /* IBMPlexSans-Bold.ttf in Resources */,
+				6F777333E9404B5E8FE4D889 /* IBMPlexSans-BoldItalic.ttf in Resources */,
+				EA17F38F09C64948BAE4B70F /* IBMPlexSans-ExtraLight.ttf in Resources */,
+				C1C30517EABE44A699BFB980 /* IBMPlexSans-Italic.ttf in Resources */,
+				51EF9EAC12CF4307B4882484 /* IBMPlexSans-Light.ttf in Resources */,
+				F54D8F72CD9C40C2AC9F2082 /* IBMPlexSans-Medium.ttf in Resources */,
+				7461D089A0C8411DB3D3C3B9 /* IBMPlexSans-Regular.ttf in Resources */,
+				9CA3EFF1C5C0414E94430A9C /* IBMPlexSans-SemiBold.ttf in Resources */,
+				F629DC52144B41CC98BCFB63 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */,
+				CF3B804CFE774FA38A1D97FF /* IBMPlexSans-ThinItalic.ttf in Resources */,
+				1618298C321C48CAB0F52021 /* AntDesign.ttf in Resources */,
+				DD349F9A5B12449281351258 /* Entypo.ttf in Resources */,
+				0BC8AACA27F948888E46F802 /* EvilIcons.ttf in Resources */,
+				92E4CAFA3E184CAC8E2E4F61 /* Feather.ttf in Resources */,
+				675B88F550EF48DD99DCE5C6 /* FontAwesome.ttf in Resources */,
+				5659CB135AD1485D978A8E4B /* FontAwesome5_Brands.ttf in Resources */,
+				A821D41278EA46B9BAF9CCBA /* FontAwesome5_Regular.ttf in Resources */,
+				6737BAFCCB564FD186525E63 /* FontAwesome5_Solid.ttf in Resources */,
+				A8FCC41C871E46A4AB2582F9 /* Fontisto.ttf in Resources */,
+				6B5D14982E3C4BA39C828263 /* Foundation.ttf in Resources */,
+				06850F4D468A4900B51EBAA9 /* Ionicons.ttf in Resources */,
+				FD3E4858E55F4DACAB5463A9 /* MaterialCommunityIcons.ttf in Resources */,
+				C8945A3D367D4D0E96500BA1 /* MaterialIcons.ttf in Resources */,
+				C359A3483FB5470DA091C54E /* Octicons.ttf in Resources */,
+				3A67E3F53AA345B1BB0C358B /* SimpleLineIcons.ttf in Resources */,
+				8EBA22DD054B448D9C78F1ED /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2C2D2846983A4BB04F60ABC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32CA4E567ECFCE40400CB3D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46835F40BA7D3E887D40A7CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreakTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DA455F8ED69AC83D5A8178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreakTask-StreakTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBF19E820D81C8C14BD2A3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreakTask/Pods-StreakTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1F07725BE0E96653D4DEAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreakTask-StreakTaskTests/Pods-StreakTask-StreakTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* StreakTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* StreakTask */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85B1CC394B0CD684C3ADF2C /* Pods-StreakTask-StreakTaskTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StreakTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreakTask.app/StreakTask";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA842C45028A448B175B194 /* Pods-StreakTask-StreakTaskTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = StreakTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreakTask.app/StreakTask";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C387338DB18E81048ECD2E5 /* Pods-StreakTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = StreakTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = StreakTask;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEB3121EA0BB78EF1BBD04F /* Pods-StreakTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = StreakTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = StreakTask;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StreakTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StreakTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StreakTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
