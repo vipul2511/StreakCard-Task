@@ -22,7 +22,6 @@ const isWithin = curryN(3, (min, max, value) => {
   function getJackpotData(params) {
     let url='assigment/main/data.json';
     return userApiClient.get(url).then((response) => {
-      console.log('sucess',response)
       if (in200s(response.status)) {
         return response['data']['numbers'];
       }

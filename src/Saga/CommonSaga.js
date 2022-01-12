@@ -5,14 +5,12 @@ import { CommonService } from '../Services/Api/Common';
 import CommonActions from '../Store/Common/Actions';
 
 export function* getJackpotData( payload ) {
-     console.log('saga',payload);
 	yield put(CommonActions.getJackpotDataLoading());
 	
 	try {
        
 		let data = yield call(CommonService.getJackpotData, payload);
 		if (data) {
-            console.log('saga try',data);
 			yield put(CommonActions.getJackpotDataSuccess(data));
 		} else {
 			yield put(CommonActions.getJackpotDataFailure());
